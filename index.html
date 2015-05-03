@@ -9,12 +9,12 @@
 	<div id="toolbar"> 
 		<div id="input-brush-size" class="input-group">
 			<label for="inputBrushSize">Brush size</label>
-			<input name="inputBrushSize" type="number" min="1" max="100" step="5" value ="10"/>
+			<input name="inputBrushSize" type="number" min="2" max="100" step="2" value ="20" id="inputBrushSize" onchange="changeBrushSize(this.value)"/>
 		</div>
 
 		<div id="input-brush-color" class="input-group">
 			<label for="inputBrushColor">Color</label>
-			<input type="color" name="inputBrushColor" />
+			<input type="color" name="inputBrushColor" id="inputBrushColor" onchange="changeBrushColor(this.value)"/>
 		</div>
 	</div>
 
